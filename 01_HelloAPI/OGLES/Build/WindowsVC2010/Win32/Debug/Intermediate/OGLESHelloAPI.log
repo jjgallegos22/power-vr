@@ -1,0 +1,15 @@
+﻿Build started 1/7/2016 4:26:13 PM.
+     1>Project "D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\OGLESHelloAPI.vcxproj" on node 2 (Rebuild target(s)).
+       Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\..\..\..\Builds\Include /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\Intermediate\\" /Fd"Win32\Debug\Intermediate\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\OGLESHelloAPI_Windows.cpp
+         OGLESHelloAPI_Windows.cpp
+     1>d:\projects\power-vr\01_helloapi\ogles\ogleshelloapi_windows.cpp(562): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\Win32\Debug\OGLESHelloAPI.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\..\Builds\Windows\x86_32\Lib libEGL.lib libGLESv2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\Win32\Debug\OGLESHelloAPI.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\Win32\Debug\OGLESHelloAPI.lib" /MACHINE:X86 Win32\Debug\Intermediate\OGLESHelloAPI_Windows.obj
+         OGLESHelloAPI.vcxproj -> D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\Win32\Debug\OGLESHelloAPI.exe
+     1>Done Building Project "D:\projects\power-vr\01_HelloAPI\OGLES\Build\WindowsVC2010\OGLESHelloAPI.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17
